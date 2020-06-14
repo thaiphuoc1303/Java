@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class SinhVienIT extends SinhVienFpt {
 
 	private double diemJava, diemHTML, diemCSS;
-
+	private String Phuoc;
+	
 	public SinhVienIT(String hoTen, String nganh, double diemJava, double diemHTML, double diemCSS) {
 
 		Scanner scanner = new Scanner(System.in);
